@@ -1,0 +1,210 @@
+.Book__container {
+    /* border: 2px solid; */
+    display: flex;
+    margin: 2rem;
+    width: fit-content;
+    /* justify-content: flex-start; */
+    padding: 0.7rem;
+    border-radius: 24px;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 2px 2px 12px black;
+
+
+}
+
+.book__img-cont {
+    /* background-color: rgba(185, 5, 5, 0.227); */
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 70%;
+
+}
+
+.book__img-cont img:hover {
+    transform: scale(1);
+}
+
+
+.book__contant-cont {
+    /* background-color: white; */
+    padding: 0.7rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.book__contant-cont h2 {
+    font-size: 34px;
+    font-family: "Google Sans", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 110%;
+    color: rgb(0, 0, 29);
+
+}
+
+.book__contant-cont img {
+    margin-top: 0.4rem;
+    width: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.price h4 {
+    font-size: 24px;
+    font-family: system-ui, sans-serif;
+}
+
+.cut {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: red;
+    margin-left: 0.4rem;
+}
+
+
+.off {
+    font-size: 16px;
+    color: rgb(0, 110, 26);
+    margin-left: 0.4rem;
+}
+
+.harryup {
+    margin-top: 0.5rem;
+}
+
+.price h5 {
+    font-size: 16px;
+    margin-top: -1.7rem;
+}
+
+.price p {
+    color: rgb(187, 17, 17);
+}
+
+.offerdiv {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    margin-top: -1.4rem;
+
+}
+
+.offerdiv img {
+    width: 20px;
+}
+
+.offerdiv p {
+    margin-top: 2rem;
+    color: black;
+}
+
+.book__contant-cont p {
+    padding: 0;
+    font-size: 15px;
+    max-width: 400px;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.specificheading {
+    position: relative;
+    right: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(46, 46, 46);
+
+}
+
+
+@media (max-width:800px) {
+    .Book__container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        margin: 1.5rem;
+        padding: 0.5rem;
+
+    }
+
+
+    .book__img-cont {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 12px;
+
+    }
+
+    .book__img-cont img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    button {
+        margin-bottom: 1rem;
+    }
+
+    .specificheading {
+        position: relative;
+        top: -470px;
+        right: -240px;
+
+    }
+}
+
+
+.btn-cont {
+    /* border: 1px solid; */
+    margin-top: -1.6rem;
+
+}
+
+
+button {
+    padding: 0.6rem 2rem;
+    margin-right: 0.8rem;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(20, 195, 20);
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.04rem;
+
+
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.6;
+    transform: scale(0.96);
+}

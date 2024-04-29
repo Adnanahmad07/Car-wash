@@ -1,0 +1,214 @@
+.aboutus {
+    width: 100%;
+    padding: 3rem;
+    /* height: 1200px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-bottom: 4rem;
+
+
+
+
+
+
+
+}
+
+.aboutus .hm {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 66px;
+    font-weight: 800;
+    text-shadow: 3px 13px 12px rgba(0, 0, 0, 0.407);
+    font-style: italic;
+    color: rgb(5, 0, 71);
+
+}
+
+.aboutcompany {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+
+}
+
+.aboutwork {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+
+img {
+    width: 400px;
+    flex: 1;
+    border-radius: 14px;
+    transition: all 0.3s;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.aboutcompany__img-cont {
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.38);
+    height: fit-content;
+    margin-top: 2rem;
+}
+
+.aboutcompany__text-cont {
+    flex: 1;
+    /* border: 1px solid; */
+    margin-left: 6rem;
+    padding: 1rem;
+
+}
+
+.aboutcompany__text-cont h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    line-height: 34px;
+    margin-bottom: 2rem;
+    line-height: 33px;
+
+}
+
+.aboutcompany__text-cont p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    margin-bottom: 2rem;
+
+}
+
+.aboutcompany__text-cont button {
+    padding: 0.6rem 3.8rem;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 1;
+}
+
+.marginletf {
+    margin-left: 0;
+    margin-right: 3rem;
+}
+
+
+.final {
+    /* border: 1px solid; */
+    margin-top: 3rem;
+}
+
+.final .final__img-div .bimg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+
+
+}
+
+.final:last-child {}
+
+.final:last-child h2 {
+    font-family: "Google Sans", "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 110%;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 29);
+    margin-top: 1rem;
+}
+
+.final__img-div .bimg:hover {
+    transform: scale(1);
+}
+
+.black-shadow {
+
+
+    background: rgba(0, 0, 0, 0.44);
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    margin-top: -305px;
+    border-radius: 12px;
+
+
+
+}
+
+.black-shadow:hover {
+    cursor: pointer;
+}
+
+
+
+@media (max-width:800px) {
+    .aboutus {
+        padding: 1rem;
+    }
+
+    .aboutwork {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(0, 0, 0, 0.168);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-bottom: 1rem;
+
+    }
+
+    .aboutcompany {
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.168);
+
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+
+    }
+
+    .aboutcompany__img-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+
+    }
+
+    .aboutcompany__img-cont img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .aboutcompany__text-cont {
+        /* border: 1px solid; */
+        margin-left: 0;
+
+
+    }
+
+    .aboutus .hm {
+        font-size: 44px;
+    }
+}
