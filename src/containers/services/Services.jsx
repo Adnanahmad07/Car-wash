@@ -23,7 +23,7 @@ const Services = () => {
 
                     heading="BOOK YOUR CAR CARE SERVICE"
 
-                    text="Experience seamless automotive care at Akash Car Services in Panchowti, Amravati. Our book car service ensures hassle-free attention from skilled technicians for routine maintenance or repairs."
+                    text="Experience seamless automotive care at expertz Car Services in Panchowti, Amravati. Our book car service ensures hassle-free attention from skilled technicians for routine maintenance or repairs."
 
 
                 />
@@ -33,7 +33,7 @@ const Services = () => {
 
                     heading="CAR CARE PRODUCTS"
 
-                    text="Akash Car Service offers a comprehensive range of car care products designed to keep your vehicle looking pristine and performing at its best."
+                    text="expertz Car Service offers a comprehensive range of car care products designed to keep your vehicle looking pristine and performing at its best."
 
 
                 />
@@ -44,7 +44,7 @@ const Services = () => {
 
                     heading="FRANCHISE"
 
-                    text="Akash Car Service is a leading franchise known for its excellence in automotive care. With a focus on customer satisfaction, they offer a comprehensive range of services from routine maintenance to diagnostics. Their skilled technicians."
+                    text="expertz Car Service is a leading franchise known for its excellence in automotive care. With a focus on customer satisfaction, they offer a comprehensive range of services from routine maintenance to diagnostics. Their skilled technicians."
 
 
                 />

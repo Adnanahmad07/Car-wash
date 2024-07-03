@@ -3,9 +3,7 @@
     /* height: 1680px; */
     margin-top: -5rem;
     padding-top: 4rem;
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(232, 146, 183, 0.6) 19%, rgb(254, 252, 252) 55%);
-
+    background-color: transparent;
 }
 
 .Service__main-container h1 {
@@ -18,7 +16,7 @@
     font-weight: 800;
     text-shadow: 3px 13px 12px rgba(0, 0, 0, 0.407);
     font-style: italic;
-    color: rgb(5, 0, 71);
+    color: #112a34;
 }
 
 
@@ -31,7 +29,7 @@
     line-height: 110%;
     margin-bottom: 36px;
     padding: 46px 82px 0;
-    color: rgb(0, 0, 29);
+    color: #1f4d5f;
 }
 
 
@@ -43,10 +41,4 @@
     flex-direction: column;
     gap: 20px;
 
-}
-
-.service__card-container div {
-    /* flex: 1; */
-    /* border: 1px solid; */
-    /* width: 100%; */
 }

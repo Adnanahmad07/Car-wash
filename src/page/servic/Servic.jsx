@@ -1,6 +1,7 @@
 
 import "./servic.css"
 import Book from '../../components/Book/Book.jsx'
+import CarWashPlans from "../../components/CarWashPlans/CarWashPlans.jsx"
 
 
 
@@ -22,6 +23,16 @@ import fourstar from '../../assets/Star_rating_4.5_of_5.png'
 const Servic = () => {
     return (
         <div className="Service__main-container">
+            <h1>Plans</h1>
+            <p> Our Plan, the blueprint for your car care</p>
+            <div className="sercices__plan-cont">
+                <CarWashPlans />
+            </div>
+
+
+
+
+
             <h1>Service</h1>
             <p>below services provided by our team</p>
 
@@ -78,6 +89,41 @@ const Servic = () => {
 
 
 
+
+                    < Book
+
+                        Mimg={card1img}
+                        Mheding="Car wash with all inside parts"
+                        star={fourstar}
+                        price="₹999"
+                        cut="₹1300"
+                        off="4.0% Off"
+                        summary="harry up alraddy 50+ customor booked"
+                        offers="Available Offers"
+                        offer1="if you order in between 1may to 20may you will get intant cash back"
+                        position="best seller"
+
+                    />
+
+
+
+
+
+                    < Book
+
+                        Mimg={card2img}
+                        Mheding="engine servicing"
+                        star={fourstar}
+                        price="₹2199"
+                        cut="₹3000"
+                        off="25% Off"
+                        summary="this services pease your car helth"
+                        offers="Available Offers"
+                        offer1="if you order in between 1may to 20may you will get intant cash back"
+                        position="most loved"
+
+
+                    />
 
 
 

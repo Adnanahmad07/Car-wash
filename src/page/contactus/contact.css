@@ -72,6 +72,9 @@
 
 }
 
+
+
+
 .mapcontdiv {
     display: flex;
     margin-top: -10rem;
@@ -95,6 +98,8 @@
     /* border: 1px solid; */
     justify-content: center;
     align-items: center;
+    margin-left: -3rem;
+
 
 
 
@@ -135,6 +140,16 @@
     position: relative;
     flex: 1;
 
+
+
+
+}
+
+.mobmap {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: none;
 
 
 
@@ -193,6 +208,10 @@
 
     .dd {
         /* border: 1px solid; */
+    }
+
+    .mobmap {
+        display: block;
     }
 
 }

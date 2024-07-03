@@ -4,7 +4,7 @@
     /* height: 1200px; */
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: transparent;
     padding-bottom: 4rem;
 
 
@@ -23,7 +23,7 @@
     font-weight: 800;
     text-shadow: 3px 13px 12px rgba(0, 0, 0, 0.407);
     font-style: italic;
-    color: rgb(5, 0, 71);
+    color: #112a34;
 
 }
 
@@ -54,9 +54,9 @@ img:hover {
 
 .aboutcompany__img-cont {
     padding: 2rem;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.38);
+    border-radius: 19px;
+    background-color: #eef7ff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.106);
     height: fit-content;
     margin-top: 2rem;
 }
@@ -76,6 +76,8 @@ img:hover {
     line-height: 34px;
     margin-bottom: 2rem;
     line-height: 33px;
+    color: #1f4d5f;
+
 
 }
 
@@ -85,6 +87,8 @@ img:hover {
     font-weight: 100;
     text-align: justify;
     margin-bottom: 2rem;
+    line-height: 28px;
+    color: rgb(13, 13, 13);
 
 }
 
@@ -92,12 +96,13 @@ img:hover {
     padding: 0.6rem 3.8rem;
     border: none;
     outline: none;
-    background: black;
-    color: white;
+    background: #afd1cd;
+    color: #1f4d5f;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     opacity: 1;
+    border: 1px solid rgba(0, 0, 0, 0.219);
 }
 
 .marginletf {
@@ -128,7 +133,8 @@ img:hover {
     font-size: 2rem;
     line-height: 110%;
     margin-bottom: 10px;
-    color: rgb(0, 0, 29);
+    color: #1f4d5f;
+    line-height: 38px;
     margin-top: 1rem;
 }
 

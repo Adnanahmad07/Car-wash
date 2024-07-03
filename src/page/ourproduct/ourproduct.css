@@ -18,7 +18,8 @@
     font-weight: 800;
     text-shadow: 3px 13px 12px rgba(0, 0, 0, 0.407);
     font-style: italic;
-    color: rgb(5, 0, 71);
+    color: #112a34;
+
 }
 
 .gallry__container P {
@@ -28,7 +29,8 @@
     line-height: 110%;
     margin-bottom: 36px;
     padding: 46px 82px 0;
-    color: rgb(0, 0, 29);
+    color: #1f4d5f;
+
 }
 
 .gallry__img-container {

@@ -50,7 +50,7 @@ const Book = (props) => {
 
                     <button><a href="https://wa.me/919356668159">whatsapp</a></button>
                     <button className="telegram">
-                        <a href="https://web.telegram.org/a/">telegram</a>
+                        <a href="https://t.me/Riyal_Shadow">telegram</a>
                     </button>
                 </div>
             </div>

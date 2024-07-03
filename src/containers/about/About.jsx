@@ -11,12 +11,15 @@ const About = () => {
 
             </div>
             <div className="gpt3__possibility-content">
-                <h4>ABOUT THE AKASH CAR CARE</h4>
+                <h4>ABOUT THE EXPERTZ CAR CARE</h4>
                 <h1 className="gradient__text">
-                    The Akash car services and care's
+                    The Expertz car services and care's
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit incidunt ab iure. Quisquam.
-                    dolor sit amet consectetur, adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea debitis veritatis. Necessitatibus, culpa. Minus nobis et natus sed inventore. Placeat architecto sint et voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam et doloremque laudantium officiis recusandae optio maxime non sed vero maiores porro natus doloribus alias repellat, minima tenetur, molestiae accusantium consectetur? explicabo soluta, velit praesentium quae.Impedit incidunt ab iure. Quisq
+                <p>Welcome to Expertz Car Wash, where your car’s shine is our top priority. At Expertz, we combine expertise with state-of-the-art technology to provide a superior car cleaning experience. Our team of highly trained professionals is dedicated to delivering the highest quality service to each and every customer. Whether you're coming in for a quick wash or a full detailing, we guarantee your car will leave our premises looking like it just rolled off the showroom floor.
+
+                    We understand that your time is valuable, so we’ve streamlined our processes to ensure a quick yet thorough wash. Our advanced equipment and techniques allow us to clean your car efficiently without compromising on the quality of the service. From the moment you arrive, you'll notice our commitment to excellence, starting with our friendly and attentive staff who are always ready to assist you.
+
+
                 </p>
                 <h4>Request for call</h4>
             </div>

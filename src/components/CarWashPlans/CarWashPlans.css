@@ -1,0 +1,35 @@
+.services__plan-cont {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    background: #00000000 !important;
+}
+
+.services__plan-cont img {
+    transform: translate(0);
+}
+
+.buttons {
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.buttons button {
+    cursor: pointer;
+}
+
+.plan-details {
+    margin-top: 20px;
+}
+
+.plan-details ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.plan-details li {
+    margin-bottom: 10px;
+}

@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="bgcont">
                 <h3>CONTACT  <br /><span>U</span><span>S</span> </h3>
                 <h6>Contact page</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, deserunt rerum. Voluptatem laborum necessitatibus natus? Reprehenderit natus eaque in. Ab molestiae quas sapiente laudantium maiores vel. Iste maiores repellat minus?</p>
+                <p>Welcome to the Expertz Car Wash Contact Page! We're here to assist you with any questions, feedback, or service inquiries. Whether you need help with booking an appointment, have a query about our services, or want to provide feedback on your experience, our dedicated team is ready to help.</p>
                 <Link to="/" className="home">
                     Go to Home &#8594;</Link>
             </div>
@@ -55,6 +55,11 @@ const Contact = () => {
             <div className="map">
                 {/* <MapContainer /> */}
 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1566.5918398186072!2d77.76102738988247!3d20.95234148210325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a3446b8fc599%3A0xb1e071a4a52eed40!2sRangoli%20Wine%20Shop!5e0!3m2!1sen!2sin!4v1714251055031!5m2!1sen!2sin" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+            <div className="mobmap">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1566.5918398186072!2d77.76102738988247!3d20.95234148210325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a3446b8fc599%3A0xb1e071a4a52eed40!2sRangoli%20Wine%20Shop!5e0!3m2!1sen!2sin!4v1714251055031!5m2!1sen!2sin" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

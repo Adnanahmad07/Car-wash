@@ -1,17 +1,30 @@
 
 import "slick-carousel/slick/slick.css";
 import 'slick-carousel/slick/slick-theme.css';
-import { Route, Routes, ScrollRestoration } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 
 import { Aboutus, Contactus, OurPro, Servic } from "./page";
 
-import { About, Contact, Header, Navbar, Services, Product } from './containers';
+import { About, Contact, Header, Navbar, Services, Product, Plans } from './containers';
+import { useEffect } from "react";
+import Refar from "./containers/Refar/Refar.jsx";
 
 function App() {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname])
+
   return (
     <div>
       <Navbar />
+
+
+
+
 
 
 
@@ -22,19 +35,22 @@ function App() {
 
           <Header />
           <Services />
+          <Refar />
           <Product />
           <About />
 
+
         </>
-        } ScrollRestoration="auto" />
+        } />
 
 
 
 
-        <Route path='/Aboutus' element={<Aboutus />} ScrollRestoration="auto" />
-        <Route path='/Contactus' element={<Contactus />} ScrollRestoration="auto" />
-        <Route path='/product' element={<OurPro />} ScrollRestoration="top" />
-        <Route path='/sercices' element={<Servic />} ScrollRestoration="top" />
+        <Route path='/Aboutus' element={<Aboutus />} />
+        <Route path='/Contactus' element={<Contactus />} />
+        <Route path='/product' element={<OurPro />} />
+        <Route path='/sercices' element={<Servic />} />
+        <Route path='/plans' element={<Plans />} />
       </Routes>
 
 

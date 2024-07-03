@@ -5,9 +5,10 @@
     width: fit-content;
     /* justify-content: flex-start; */
     padding: 0.7rem;
-    border-radius: 24px;
-    background-color: rgb(244, 244, 244);
-    box-shadow: 2px 2px 12px black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.291);
+    background-color: #EEF7FF;
+
 
 
 }
@@ -186,9 +187,11 @@ button {
     margin-right: 0.8rem;
     border-radius: 4px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
-    background-color: rgb(20, 195, 20);
+    background: #cde8e5;
+
+
     color: rgb(0, 0, 0);
     letter-spacing: 0.04rem;
 
@@ -196,7 +199,8 @@ button {
 }
 
 .telegram {
-    background-color: #0088cc;
+    background: #cde8e5;
+
 }
 
 button:hover {
