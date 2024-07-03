@@ -42,3 +42,17 @@
     gap: 20px;
 
 }
+
+.left_aling {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.R_aling {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}

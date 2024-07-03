@@ -25,7 +25,7 @@ const Book = (props) => {
 
 
                 <div className="price">
-                    <h4>{props.price}<span className="cut">{props.cut}</span> <span className="off">{props.off}</span></h4>
+                    {/* <h4>{props.price}<span className="cut">{props.cut}</span> <span className="off">{props.off}</span></h4> */}
 
                     <p className="harryup">{props.summary}</p>
 
