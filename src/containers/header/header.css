@@ -49,9 +49,9 @@
 
 .headlines h5 {
     max-width: 700px;
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
     word-spacing: 10px;
     margin-bottom: 2rem;
@@ -104,11 +104,18 @@
 
 
 @media(max-width:1000px) {
+    .headlines {
+        /* border: 1px solid; */
+        width: 100%;
+
+    }
 
     .headlines h1 {
-        font-size: 46px;
-        line-height: 60px;
-        width: 300px;
+        font-size: 40px;
+        line-height: 40px;
+        text-wrap: nowrap;
+        width: 100% !important;
+        /* border: 1px solid; */
         margin-bottom: 1.5rem;
 
 
@@ -116,12 +123,13 @@
 
     .headlines h5 {
         max-width: 700px;
-        font-size: 14px;
+        font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 100;
-        text-align: center;
+        font-weight: 400;
+        text-align: justify;
         word-spacing: 10px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin-right: 0.6rem;
     }
 
 
@@ -135,7 +143,7 @@
         font-size: 17px;
         overflow: hidden;
         background: #fedcfd;
-        margin-top: 3rem;
+        margin-top: 0rem;
         z-index: 11;
         font-size: 16px;
     }
@@ -143,7 +151,7 @@
 }
 
 
-
+/* 
 @media(max-width:700px) {
 
     .headlines h1 {
@@ -181,4 +189,4 @@
         font-size: 16px;
     }
 
-}
+} */
