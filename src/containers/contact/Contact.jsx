@@ -1,6 +1,9 @@
+import { FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6'
 import './contact.css'
+import { FaMailBulk } from 'react-icons/fa'
 
 const Contact = () => {
+    const Year = new Date().getFullYear()
     return (
         <div className="gpt3__footer section__padding">
             <div className="gpt3__footer-heading">
@@ -9,7 +12,8 @@ const Contact = () => {
                 </h1>
             </div>
             <div className="gpt3__footer-btn">
-                <p>Make a call request</p>
+                <p><a href="tel:+918698680780">Make a Request Call</a>
+                </p>
             </div>
 
 
@@ -21,28 +25,27 @@ const Contact = () => {
 
                 <div className="gpt3__footer-links-div">
                     <h4>links</h4>
-                    <p>Overwice</p>
-                    <p>sosial media</p>
-                    <p>future</p>
-                    <p>contect</p>
+                    <p><FaWhatsapp size={25} /></p>
+                    <p><FaInstagram size={25} /></p>
+                    <p><FaTwitter size={25} /></p>
+                    <p><FaMailBulk size={25} /></p>
                 </div>
 
                 <div className="gpt3__footer-links-div">
                     <h4>Company</h4>
                     <p>Teams & conditions</p>
                     <p>Privacy Policy</p>
-                    <p>Overviwse</p>
                 </div>
 
                 <div className="gpt3__footer-links-div">
                     <h4>Get in Tuch</h4>
-                    <p>prakash colony amravati 444603. india</p>
-                    <p>(+91) 9356668159</p>
-                    <p>akashcarcare67@gmail.com</p>
+                    <p>At 305, Platina E, Pallava Casa Bella gold, shilphata road, Dombivali (E), Mumbai, Maharashtra 421204, India.</p>
+                    <p>(+91) 8698680780</p>
+                    <p>supreme12.sil@gmail.com</p>
                 </div>
             </div>
             <div className="gpt3__footer-copyright">
-                <p>2023 copyright this website created by adnan</p>
+                <p>{Year} &copy; Exprtz. All Rights Reserved This Website Created by Softtronix</p>
 
             </div>
         </div>

@@ -31,7 +31,7 @@ const Card = (props) => {
 
 
             <div className="lab__card-button_container">
-                <Button text="ENQUIRE NOW" />
+                <Button />
             </div>
 
 

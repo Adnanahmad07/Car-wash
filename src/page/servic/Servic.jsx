@@ -41,7 +41,7 @@ const Servic = () => {
                             off="4.0% Off"
                             summary="harry up alraddy 50+ customor booked"
                             offers="Available Offers"
-                            offer1="if you order in between 1may to 20may you will get intant cash back"
+                            offer1=""
                             position="best seller"
 
                         />
@@ -60,7 +60,7 @@ const Servic = () => {
                             off="25% Off"
                             summary="this services pease your Bike helth"
                             offers="Available Offers"
-                            offer1="if you order in between 1may to 20may you will get intant cash back"
+                            offer1=""
                             position="most loved"
 
 
@@ -80,8 +80,7 @@ const Servic = () => {
                             off="5.0% Off"
                             summary="make your car skin more shiny"
                             offers="Available Offers"
-                            offer1="
-if you order in between 1may to 20may you will get instant cash back"
+                            offer1=""
                             position="sponserde"
 
 
@@ -102,7 +101,7 @@ if you order in between 1may to 20may you will get instant cash back"
                             off="4.0% Off"
                             summary="harry up alraddy 50+ customor booked"
                             offers="Available Offers"
-                            offer1="if you order in between 1may to 20may you will get intant cash back"
+                            offer1=""
                             position="best seller"
 
                         />
@@ -122,7 +121,7 @@ if you order in between 1may to 20may you will get instant cash back"
                         off="25% Off"
                         summary="this services pease your car helth"
                         offers="Available Offers"
-                        offer1="if you order in between 1may to 20may you will get intant cash back"
+                        offer1=""
                         position="most loved"
 
 

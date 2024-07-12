@@ -48,10 +48,10 @@ const Book = (props) => {
                 <p>{props.itemDetails}</p>
                 <div className="btn-cont">
 
-                    <button><a href="https://wa.me/919356668159">whatsapp</a></button>
-                    <button className="telegram">
+                    <button><a href="https://wa.me/918698680780">whatsapp</a></button>
+                    {/* <button className="telegram">
                         <a href="https://t.me/Riyal_Shadow">telegram</a>
-                    </button>
+                    </button> */}
                 </div>
             </div>
 

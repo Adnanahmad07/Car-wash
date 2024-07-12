@@ -8,7 +8,7 @@ import image4 from "../../assets/image4.jpg"
 const Ourproduct = () => {
     return (
         <div className="gallry__container">
-            <h1>Gallry</h1>
+            <h1>Gallery</h1>
             <p>SEE OUR HAPPY CUSTOMOR MEMORICES</p>
             <div className="gallry__img-container">
 

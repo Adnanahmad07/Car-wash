@@ -105,7 +105,7 @@ const Product = () => {
     return (
         <div className='maine-container'>
             <div className='services__heading'>
-                <h1> SEE GALLRY</h1>
+                <h1> SEE Gallery</h1>
             </div>
 
 

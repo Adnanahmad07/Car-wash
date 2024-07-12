@@ -79,9 +79,13 @@
 
 .lab__card-button_container {
     /* border: 1px solid; */
-    text-align: end;
+    text-align: center;
 }
 
+.lab__card-button_container button {
+    background: #4da2c4 !important;
+    color: white;
+}
 
 @media (max-width: 700px) {
 
