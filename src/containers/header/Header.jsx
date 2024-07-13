@@ -21,7 +21,7 @@ const Header = () => {
 
 
     const [headings, setHeadings] = useState([
-        "Exprtz Car Wash",
+        "Xpertz Car Wash",
         "Market Top",
         "Visit aur shop"
     ]);
@@ -50,7 +50,7 @@ const Header = () => {
             </div>
             <div className="headlines">
                 <h1>{headings[currentIndex]}</h1>
-                <h5>"Welcome to Exprtz Car Wash Company, your premier destination for top-quality car cleaning services in Kalyan. Experience our meticulous attention to detail and commitment to excellence. Let us rejuvenate your vehicle and leave it sparkling clean, inside and out. Trust Exprtz Car Wash Company for a pristine shine that lasts."</h5>
+                <h5>"Welcome to Xpertz Car Wash Company, your premier destination for top-quality car cleaning services in Kalyan. Experience our meticulous attention to detail and commitment to excellence. Let us rejuvenate your vehicle and leave it sparkling clean, inside and out. Trust Xpertz Car Wash Company for a pristine shine that lasts."</h5>
 
                 <Link to="/sercices" className="link">SEE SEEVICES</Link>
 

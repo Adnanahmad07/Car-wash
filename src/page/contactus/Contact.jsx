@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="bgcont">
                 <h3>CONTACT  <br /><span>U</span><span>S</span> </h3>
                 <h6>Contact page</h6>
-                <p>Welcome to the Exprtz Car Wash Contact Page! We're here to assist you with any questions, feedback, or service inquiries. Whether you need help with booking an appointment, have a query about our services, or want to provide feedback on your experience, our dedicated team is ready to help.</p>
+                <p>Welcome to the Xpertz Car Wash Contact Page! We're here to assist you with any questions, feedback, or service inquiries. Whether you need help with booking an appointment, have a query about our services, or want to provide feedback on your experience, our dedicated team is ready to help.</p>
                 <Link to="/" className="home">
                     Go to Home &#8594;</Link>
             </div>

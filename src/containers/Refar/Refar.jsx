@@ -53,7 +53,7 @@ const Refar = () => {
                         </div>
                         <div className='word-div'>
                             <h6>Download it for free.</h6>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatum dolorum optio, totam amet autem. Maxime nobis voluptatibus ex nisi</p>
+                            <p>Get your car sparkling clean with just a tap! Download our app now for exclusive deals, easy booking, and top-notch service. Enjoy convenience and quality, right at your fingertips!</p>
                         </div>
                     </div>
                     <div className='sabhead__small-box'>
@@ -62,7 +62,7 @@ const Refar = () => {
                         </div>
                         <div className='word-div'>
                             <h6>Make a Profile.</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid excepturi saepe libero.</p>
+                            <p>Experience premium car care with Profile Car Wash! Download our app for easy bookings, exclusive deals, and top-notch service at your convenience</p>
                         </div>
                     </div>
                     <div className='sabhead__small-box'>
@@ -70,8 +70,8 @@ const Refar = () => {
                             <FaCar size={73} color='#3dbbb5' fontWeight={800} />
                         </div>
                         <div className='word-div'>
-                            <h6>Develop more acquire more.</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ad nisi architecto aliquam quisquam maxime corrupti ullam?</p>
+                            <h6>Xpertz Car Care Center</h6>
+                            <p>Find the nearest service center in our app </p>
                         </div>
                     </div>
                 </div>

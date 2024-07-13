@@ -92,6 +92,12 @@
     flex-direction: column;
 }
 
+.gpt3__footer-links-div .icon__div {
+    display: flex;
+    gap: 15px;
+    margin-left: -0.3rem;
+}
+
 .gpt3__footer-links-div h4 {
     font-family: var(--font-family);
     font-size: 19px;

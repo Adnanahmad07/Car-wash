@@ -24,11 +24,13 @@ const Contact = () => {
                 </div>
 
                 <div className="gpt3__footer-links-div">
-                    <h4>links</h4>
-                    <p><FaWhatsapp size={25} /></p>
-                    <p><FaInstagram size={25} /></p>
-                    <p><FaTwitter size={25} /></p>
-                    <p><FaMailBulk size={25} /></p>
+                    {/* <h4>links</h4> */}
+                    <div className='icon__div'>
+                        <p><a href=""><FaWhatsapp size={25} /></a></p>
+                        <p><FaInstagram size={25} /></p>
+                        <p><FaTwitter size={25} /></p>
+                        <p><FaMailBulk size={25} /></p>
+                    </div>
                 </div>
 
                 <div className="gpt3__footer-links-div">
@@ -45,7 +47,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="gpt3__footer-copyright">
-                <p>{Year} &copy; Exprtz. All Rights Reserved This Website Created by Softtronix</p>
+                <p>{Year} &copy; xpertz. All Rights Reserved This Website Created by Softtronix</p>
 
             </div>
         </div>

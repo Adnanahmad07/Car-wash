@@ -23,16 +23,9 @@ const CarWashPlans = () => {
         case 'basic':
             planDetails = (
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Consectetur adipiscing elit.</li>
-                    <li>Sed do eiusmod tempor incididunt.</li>
-                    <li>Ut labore et dolore magna aliqua.</li>
-                    <li>Ut enim ad minim veniam.</li>
-                    <li>Quis nostrud exercitation ullamco.</li>
-                    <li>Laboris nisi ut aliquip ex ea commodo.</li>
-                    <li>Duis aute irure dolor in reprehenderit.</li>
-                    <li>In voluptate velit esse cillum dolore.</li>
-                    <li>Eu fugiat nulla pariatur.</li>
+                    <li>Cleaning wash (Remove dirts from body)</li>
+                    <li>  Reomve dirts from tyre wheel disc</li>
+
                 </ul>
             );
             bgColor = '#f0f0f0';
@@ -43,16 +36,10 @@ const CarWashPlans = () => {
         case 'premium':
             planDetails = (
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Consectetur adipiscing elit.</li>
-                    <li>Sed do eiusmod tempor incididunt.</li>
-                    <li>Ut labore et dolore magna aliqua.</li>
-                    <li>Ut enim ad minim veniam.</li>
-                    <li>Quis nostrud exercitation ullamco.</li>
-                    <li>Laboris nisi ut aliquip ex ea commodo.</li>
-                    <li>Duis aute irure dolor in reprehenderit.</li>
-                    <li>In voluptate velit esse cillum dolore.</li>
-                    <li>Eu fugiat nulla pariatur.</li>
+                    <li>Remove dirts from body, Foam Cleaning</li>
+                    <li>  Reomve dirts from tyre disc</li>
+                    <li>  Polish body</li>
+
                 </ul>
             );
             bgColor = '#d0e6f5';
@@ -63,16 +50,11 @@ const CarWashPlans = () => {
         case 'exclusive':
             planDetails = (
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Consectetur adipiscing elit.</li>
-                    <li>Sed do eiusmod tempor incididunt.</li>
-                    <li>Ut labore et dolore magna aliqua.</li>
-                    <li>Ut enim ad minim veniam.</li>
-                    <li>Quis nostrud exercitation ullamco.</li>
-                    <li>Laboris nisi ut aliquip ex ea commodo.</li>
-                    <li>Duis aute irure dolor in reprehenderit.</li>
-                    <li>In voluptate velit esse cillum dolore.</li>
-                    <li>Eu fugiat nulla pariatur.</li>
+                    <li>Remove dirts from body, Foam Cleaning </li>
+                    <li> Reomve dirts from tyre disc</li>
+                    <li> Polish body</li>
+                    <li> Tyre polish</li>
+                    <li> Guards polish</li>
                 </ul>
             );
             bgColor = '#ffd700';
@@ -116,7 +98,7 @@ const CarWashPlans = () => {
             </div>
             <div className="whatsapp-button" style={{ textAlign: 'center', marginTop: '20px' }}>
                 <a
-                    href={`https://wa.me/919356668159?text=${encodeURIComponent(whatsappMessage)}`}
+                    href={`https://wa.me/+918698680780?text=${encodeURIComponent(whatsappMessage)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ backgroundColor: '#25D366', color: '#fff', padding: '10px 20px', borderRadius: '5px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}

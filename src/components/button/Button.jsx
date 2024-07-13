@@ -55,7 +55,7 @@ const Button = (props) => {
                     </div>
                     <div className="form-group">
                         <label htmlFor="year">Model Year</label>
-                        <input type="number" id="year" name="year" min="1900" max="2024" step="1" required />
+                        <input type="text" id="year" name="year" min="1900" max="2024" step="1" required />
                     </div>
                     <button type="submit">Submit</button>
                 </form>
